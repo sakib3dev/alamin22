@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ol, ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.banner_one {
+    width: 100%;
+    height: 1000px;
+    background: url(../css/images/web-gsme-xd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    background:rgba(173, 164, 164, 0.15);
+    height: 52px;
+    
+}
+.logo{
+    height: 52px;
+    width: 200px;
+}
+.item{
+    height: 52px;
+    width: 950px;
+    text-align: center;
+}
+.purches{
+    height: 52px;
+    width: 200px;
+    background: yellow;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.logo picture img {
+    height: 52px;
+    width: 75px;
+}
+
+.item ul li{
+    display: inline-block;
+}
+.item ul li a {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    font-family: 'Stardos Stencil';
+    padding-left: 50px;
+    
+}
+.purches ul li a{
+    color: black;
+    font-size: 16px;
+    line-height: 52px;
+    font-weight: 800;
+    font-family: 'Stardos Stencil';
+    
+}
+
+.content_one h1{
+    font-size: 65px;
+    color: white;
+    padding-top: 180px;
+
+}
+.content_one p{
+    font-size: 65px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.content_two p{
+    font-size: 16px;
+    color: white;
+    padding-top: 180px;
+
+}
+.get_button {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background: rgba(173, 164, 164, 0.15);
+    text-align: center;
+    margin-top: 100px;
+}
+.get_button a{
+    font-size: 16px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
